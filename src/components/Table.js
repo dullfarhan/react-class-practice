@@ -1,0 +1,43 @@
+export default function Table(){
+
+    return (
+      <table>
+        <tr>
+          <th>Sr#</th>
+          <th>Roll#</th>
+          <th>Name</th>
+          <th>Cgpa</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19f0254</td>
+          <td>Farhan</td>
+          <td>5.0</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>19f0171</td>
+          <td>Murshad</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>19f0754</td>
+          <td>ali</td>
+          <td>1.0</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>19f0054</td>
+          <td>Farhan</td>
+          <td>4.0</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>19f007</td>
+          <td>kahn</td>
+          <td>3.0</td>
+        </tr>
+      </table>
+    );
+}
