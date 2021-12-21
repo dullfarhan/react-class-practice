@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import Button from './components/Button'
 import reportWebVitals from './reportWebVitals';
+import FavoriteColor from './components/Fav_col';
 import Table from './components/Table';
 import Counter from './components/Counter'
+import Timeout from './components/Timeout'
 
 ReactDOM.render(
   <React.StrictMode>
+    <FavoriteColor/>
+    <Timeout/>
     <Counter val='0'/>
   </React.StrictMode>,
   document.getElementById("root")
